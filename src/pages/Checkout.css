@@ -1,0 +1,46 @@
+.checkout {
+    margin: 10px;
+}
+
+.purchase {
+    margin-top: 10px;
+    background-color: #33373E;
+    color: white;
+    padding: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.order {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.order > input {
+    margin: 20px;
+    height: 30px;
+    width: 220px;
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid #ccc;
+    background-color: #21222A;
+    padding: 10px;
+    color: white;
+}
+
+.order > button {
+    margin: 20px;
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: white;
+}
+
+.order > button:hover {
+    background-color: #61DAFB;
+}

@@ -1,0 +1,50 @@
+.item {
+    margin: 15px;
+    background-color: #33373E;
+    width: fit-content;
+    height: 330px;
+    border-radius: 0 0 5px 5px;
+    color: white;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    position: relative;
+    transition: transform ease 75ms;
+}
+
+.item > img {
+    width: 180px;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.item > h3 {
+    margin: 5px;
+}
+
+.item > h4 {
+    padding: 5px;
+}
+
+.item > button {
+    width: 100%;
+    height: 30px;
+    border-radius: 0 0 5px 5px;
+    border-width: 0;
+    margin-top: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.item > button:hover {
+    background-color: #61DAFB;
+}
+
+.item > p {
+    color: white;
+    margin: 5px;
+    font-size: 0.8rem;
+}
+
+.item:hover {
+    transform: scale(1.025);
+}
